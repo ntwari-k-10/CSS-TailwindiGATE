@@ -9,10 +9,10 @@
 <body>
     <!-- navigation bar -->
     <div>
-        <header class="flex justify-around sm:justify-around h-18 mt-2 sticky top-0 bg-white z-100">
+        <header class="flex justify-around sm:justify-around h-16 bg-white fixed top-0 left-0 right-0 z-50">
             <div class="w-2xl h-2xl basis-64">
                 <img src="" alt="">
-            <img class="overl" src="https://cms-cdn.lmu.de/assets/img/Logo_LMU.svg" alt="">
+            <img class="overl logo-img transition-transform duration-200 origin-left" src="https://cms-cdn.lmu.de/assets/img/Logo_LMU.svg" alt="">
             </div>
             <div class="flex items-center basis-xl place-content-start">
                 <ul class="font-bold flex items-center justify-between gap-7">
@@ -30,6 +30,7 @@
            
             </div>
         </header>
+        <div class="h-16" aria-hidden="true"></div>
         <!-- first image section -->
          <div class="size-5/6 mx-auto">
             <div class="sm">
@@ -110,7 +111,7 @@
     <div class="px-10 mt-40  max-w-340 mx-auto">
         <div class="py-4">
             <h1 class="text-4xl font-bold pb-2">Research at LMU</h1>
-            <p class="text-xl">LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</p>  
+            <p class="text-xm">LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</p>  
         </div>
         <div class="grid grid-cols-4 grid-rows-3 mt-5 h-220 w-full mx-auto">
             <div class="col-span-2 col-start-1 row-span-2 row-start-1"><img class="w-full h-full object-cover" src="https://cms-cdn.lmu.de/media/archiv-mediapool-easydb/forschung-easydb/prof_kiebler_2632_full_1_1_format_l.jpg"></div>
@@ -122,8 +123,8 @@
             <div class="col-span-1 col-start-2 row-span-1 row-start-2 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
             
-            <div class="col-span-2 col-start-3 row-span-2 row-start-2 bg-gray-100 p-5 "><span class="font-bold text-2xl pb-4 p-5">A strong research environment <br> </span>
-<span class="text-xm p-5 text-center text-gray-800">At LMU, researchers from all over the world encounter excellent conditions for their work — in their own research field and in interdisciplinary networks alike.</span>
+            <div class="col-span-2 col-start-3 row-span-2 row-start-2 bg-gray-100 p-10"><span class="font-bold text-2xl pb-4 ">A strong research environment <br> </span>
+<span class="text-xm  text-center text-gray-800">At LMU, researchers from all over the world encounter excellent conditions for their work — in their own research field and in interdisciplinary networks alike.</span>
 <ul class="text-xm p-4 font-bold ">
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research profile</li>
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research projects</li>
@@ -141,28 +142,28 @@
   <!-- image section3 -->
    <div class="px-10 mt-40  max-w-360 mx-auto">
         <div class="py-4">
-            <h1 class="text-4xl font-bold pb-2">Research at LMU</h1>
-            <p class="text-xl">LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</p>  
+            <h1 class="text-4xl font-bold pb-2">Studying at LMU</h1>
+            <p class="text-xm">LMU has a reputation for its extensive range of subjects. Here, you can learn from leading academics at one of Germany’s most renowned universities. Study in the heart of Munich and gain first-hand, practical experience as you go.</p>  
         </div>
         <div class="grid grid-cols-4 grid-rows-3 mt-5 h-220 w-full mx-auto px-10">
             <div class="col-span-2 col-start-3 row-span-2 row-start-1"><img class="w-full h-full object-cover" src="https://cms-cdn.lmu.de/media/lmu/temp/164_full_1_1_1_format_l.jpg"></div>
-            <div class="border bg-black text-white font-bold col-span-1 col-start-2 row-span-1 row-start-1 border-black hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex"><span>Faculties</span>
+            <div class="border bg-black text-white font-bold col-span-1 col-start-2 row-span-1 row-start-1 border-black hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex"><span>Everything you should know to start studying</span>
             <div class="col-span-1 col-start-4 row-span-1 row-start-1 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
             
-            <div class="border col-span-1 col-start-4 row-span-1 row-start-2  border-green-700 bg-green-700 text-white hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold"><span>Execellence Strategy</span>
+            <div class="border col-span-1 col-start-4 row-span-1 row-start-2  border-green-700 bg-green-700 text-white hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold"><span>LMU — the right choice to make</span>
             <div class="col-span-1 col-start-2 row-span-1 row-start-2 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
             
-            <div class="col-span-2 col-start-1 row-span-2 row-start-2 bg-gray-100 p-5 "><span class="font-bold text-2xl pb-4 p-5">A strong research environment <br> </span>
-<span class="text-xm p-5 text-center text-gray-800">At LMU, researchers from all over the world encounter excellent conditions for their work — in their own research field and in interdisciplinary networks alike.</span>
+            <div class="col-span-2 col-start-1 row-span-2 row-start-2 bg-gray-100 p-10"><span class="font-bold text-2xl pb-4">Support every step of the way <br> </span>
+<span class="text-xm     text-center text-gray-800 ">Whether you're an international exchange or degree student, LMU always provides a helping hand. The University offers support in all areas of your academic and professional life.</span>
 <ul class="text-xm p-4 font-bold ">
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research profile</li>
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research projects</li>
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research services</li>
 </ul></span></div>
             
-            <div class="border col-span-1 col-start-3 row-span-1 row-start-3 border-black bg-black text-white hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold "><span>Academic Careers</span>
+            <div class="border col-span-1 col-start-3 row-span-1 row-start-3 border-black bg-black text-white hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold "><span>International admissions</span>
             <div class="col-span-1 col-start-1 row-span-1 row-start-3 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
 
@@ -175,28 +176,28 @@
  
  <div class="px-10 mt-40  max-w-340 mx-auto">
         <div class="py-4">
-            <h1 class="text-4xl font-bold pb-2">Research at LMU</h1>
-            <p class="text-xl">LMU is one of Europe’s leading research institutions. With its highly diversified array of disciplines, it has outstanding potential for pioneering research.</p>  
+            <h1 class="text-4xl font-bold pb-2">Become part of LMU Munich</h1>
+            <p class="text-xm">LMU researchers work at the highest level on the great questions affecting people, society, culture, the environment and technology — supported by experts in administration, IT and tech.</p>  
         </div>
         <div class="grid grid-cols-4 grid-rows-3 mt-5 h-220 w-full mx-auto">
             <div class="col-span-2 col-start-1 row-span-2 row-start-1"><img class="w-full h-full object-cover" src="https://cms-cdn.lmu.de/media/lmu/temp/173_full_1_1_1_format_l.jpg"></div>
-            <div class="border bg-black text-white font-bold col-span-1 col-start-3 row-span-1 row-start-1 border-black hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex"><span>Faculties</span>
+            <div class="border bg-black text-white font-bold col-span-1 col-start-3 row-span-1 row-start-1 border-black hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex"><span>Professorial appointments</span>
             <div class="col-span-1 col-start-4 row-span-1 row-start-1 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
             
-            <div class="border col-span-1 col-start-2 row-span-1 row-start-2  border-green-700 bg-green-700 text-white hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold"><span>Execellence Strategy</span>
+            <div class="border col-span-1 col-start-2 row-span-1 row-start-2  border-green-700 bg-green-700 text-white hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold"><span>Opportunities for early career researchers</span>
             <div class="col-span-1 col-start-2 row-span-1 row-start-2 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
             
-            <div class="col-span-2 col-start-3 row-span-2 row-start-2 bg-gray-100 p-5 "><span class="font-bold text-2xl pb-4 p-5">A strong research environment <br> </span>
-<span class="text-xm p-5 text-center text-gray-800">At LMU, researchers from all over the world encounter excellent conditions for their work — in their own research field and in interdisciplinary networks alike.</span>
+            <div class="col-span-2 col-start-3 row-span-2 row-start-2 bg-gray-100 p-10"><span class="font-bold text-2xl pb-4">Where knowledge is everything<br> </span>
+<span class="text-xm  text-center text-gray-800">LMU offers state-of-the-art research infrastructure, an outstanding international network, attractive career opportunities and a broad spectrum of continuing personal development programs. In doing so, LMU supports its members in nurturing their talents and helping to shape their working environment.</span>
 <ul class="text-xm p-4 font-bold ">
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research profile</li>
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research projects</li>
 <li class="text-green-600 hover:text-black cursor-pointer py-2 align-middle">→Research services</li>
 </ul></span></div>
             
-            <div class="border col-span-1 col-start-2 row-span-1 row-start-3 border-black bg-black text-white hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold "><span>Academic Careers</span>
+            <div class="border col-span-1 col-start-2 row-span-1 row-start-3 border-black bg-black text-white hover:border-green-600 hover:text-green-600 hover:bg-white p-6 cursor-pointer flex font-bold "><span>Jobs in admin,IT and tech</span>
             <div class="col-span-1 col-start-1 row-span-1 row-start-3 flex h-full items-end justify-start pl-4 pb-6"><span class="text-3xl">→</span></div>
             </div>
 
@@ -205,5 +206,88 @@
     </div>
 
   <!-- footer -->
+  <footer class="bg-black text-gray-300 mt-24">
+    <div class=" inset-y-0 right-0 w-1/3 opacity-5 pointer-events-none bg-[url('https://wikimedia.org')] bg-contain bg-no-repeat"></div>
+
+    <div class="mx-auto max-w-7xl px-4 pb-12 ">
+      <div class="-mt-16 mb-16 grid grid-cols-1 md:grid-cols-12 bg-white shadow-xl min-h-[160px]">
+        <div class="md:col-span-1 bg-[#00853c] flex items-center justify-center p-4">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
+          </svg>
+        </div>
+
+        <div class="md:col-span-4 p-6 border-r border-gray-100">
+          <h3 class="font-bold text-base leading-tight tracking-tight">
+            Ludwig-Maximilians-<br>Universität München
+          </h3>
+          <a href="#" class="text-gray-800 text-xs font-bold flex items-center gap-1.5 mt-4 hover:underline">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+            </svg>
+            Routing
+          </a>
+        </div>
+
+        <div class="md:col-span-3 relative overflow-hidden bg-gray-200">
+          <div class="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] bg-[#ededed]"></div>
+          <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex h-5 w-5 items-center justify-center">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-45"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-[#00853c]"></span>
+          </div>
+        </div>
+
+        <div class="md:col-span-4 grid grid-cols-4 text-white font-semibold text-lg text-center -mt-10 gap-2">
+          <a href="#" class="bg-blue-500 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] border-r border-white/5">f</a>
+          <a href="#" class="bg-blue-400 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] border-r border-white/5">
+            <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" class="bg-blue-300 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] border-r border-white/5">
+            <svg class="w-5 h-5 stroke-white fill-none" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="#" class="bg-blue-200 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)]">in</a>
+        </div>
+      </div>
+
+      <div class="mb-16">
+        <h4 class="font-bold text-white text-sm tracking-wide mb-6">Ludwig-Maximilians-Universität München</h4>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-xl text-xs text-gray-400">
+          <div class="space-y-1">
+            <p>Geschwister-Scholl-Platz 1</p>
+            <p>D-80539 München</p>
+          </div>
+          <div class="grid grid-cols-[auto_1fr] gap-x-4">
+            <span class="text-gray-500">Tel:</span>
+            <span>+49 (0) 89 2180-0</span>
+            <span class="text-gray-500">Fax:</span>
+            <span>+49 (0) 89 2180-2322</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+        <div class="flex flex-wrap gap-4 justify-center sm:justify-start">
+          <a href="#" class="hover:text-white">Sitemap</a>
+          <a href="#" class="hover:text-white">Privacy policy</a>
+          <a href="#" class="hover:text-white">Imprint</a>
+          <a href="#" class="hover:text-white">Accessibility</a>
+          <a href="#" class="hover:text-white">Press Room</a>
+          <a href="#" class="hover:text-white">LMU Shop</a>
+        </div>
+        <div>LMU München © 2026</div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const logo = document.querySelector('.logo-img');
+    window.addEventListener('scroll', () => {
+      if (!logo) return;
+      if (window.scrollY > 20) {
+        logo.classList.add('size-10/12');
+      } else {
+        logo.classList.remove('size-10/12');
+      }
+    });
+  </script>
 </body>
 </html>
