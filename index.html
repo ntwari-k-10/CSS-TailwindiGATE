@@ -205,12 +205,10 @@
         </div>
     </div>
 
-  <!-- footer -->
-  <footer class="bg-black text-gray-300 mt-24">
-    <div class=" inset-y-0 right-0 w-1/3 opacity-5 pointer-events-none bg-[url('https://wikimedia.org')] bg-contain bg-no-repeat"></div>
-
-    <div class="mx-auto max-w-7xl px-4 pb-12 ">
-      <div class="-mt-16 mb-16 grid grid-cols-1 md:grid-cols-12 bg-white shadow-xl min-h-[160px]">
+  <!-- footer top block -->
+  <section class="bg-white mt-24">
+    <div class="mx-auto max-w-7xl px-4 ">
+      <div class="mt-16 mb-16 grid grid-cols-1 md:grid-cols-12 bg-white shadow-xl min-h-[160px]">
         <div class="md:col-span-1 bg-[#00853c] flex items-center justify-center p-4">
           <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
@@ -242,39 +240,43 @@
           <a href="#" class="bg-blue-400 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] border-r border-white/5">
             <svg class="w-5 h-5 fill-white" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
           </a>
-          <a href="#" class="bg-blue-300 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] border-r border-white/5">
+          <a href="#" class="bg-blue-400 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)] border-r border-white/5">
             <svg class="w-5 h-5 stroke-white fill-none" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
           </a>
-          <a href="#" class="bg-blue-200 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)]">in</a>
+          <a href="#" class="bg-blue-400 hover:brightness-95 flex items-center justify-center py-6 md:py-0 transition duration-200 transform hover:scale-110 hover:shadow-[0_0_20px_rgba(255,255,255,0.25)]">in</a>
         </div>
       </div>
+    </div>
+  </section>
 
+  <footer class="bg-black text-gray-300 pt-40">
+    <div class="mx-auto max-w-7xl px-4 pb-12">
       <div class="mb-16">
-        <h4 class="font-bold text-white text-sm tracking-wide mb-6">Ludwig-Maximilians-Universität München</h4>
+        <h4 class="font-bold text-white text-xl tracking-wide mb-6">Ludwig-Maximilians-Universität München</h4>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-xl text-xs text-gray-400">
-          <div class="space-y-1">
+          <div class="space-y-1 text-xl">
             <p>Geschwister-Scholl-Platz 1</p>
             <p>D-80539 München</p>
           </div>
-          <div class="grid grid-cols-[auto_1fr] gap-x-4">
+          <div class="grid grid-cols-[auto_1fr] gap-x-4 text-xl">
             <span class="text-gray-500">Tel:</span>
             <span>+49 (0) 89 2180-0</span>
             <span class="text-gray-500">Fax:</span>
             <span>+49 (0) 89 2180-2322</span>
           </div>
         </div>
-      </div>
 
-      <div class="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-        <div class="flex flex-wrap gap-4 justify-center sm:justify-start">
-          <a href="#" class="hover:text-white">Sitemap</a>
-          <a href="#" class="hover:text-white">Privacy policy</a>
-          <a href="#" class="hover:text-white">Imprint</a>
-          <a href="#" class="hover:text-white">Accessibility</a>
-          <a href="#" class="hover:text-white">Press Room</a>
-          <a href="#" class="hover:text-white">LMU Shop</a>
+        <div class="pt-8 border-t border-gray-800 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+          <div class="flex flex-wrap gap-4 justify-center sm:justify-start text-xl">
+            <a href="#" class="hover:text-white">Sitemap</a>
+            <a href="#" class="hover:text-white">Privacy policy</a>
+            <a href="#" class="hover:text-white">Imprint</a>
+            <a href="#" class="hover:text-white">Accessibility</a>
+            <a href="#" class="hover:text-white">Press Room</a>
+            <a href="#" class="hover:text-white">LMU Shop</a>
+          </div>
+          <div>LMU München © 2026</div>
         </div>
-        <div>LMU München © 2026</div>
       </div>
     </div>
   </footer>
